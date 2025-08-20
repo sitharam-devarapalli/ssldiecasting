@@ -1224,7 +1224,7 @@ span {
 /* contact us page css - Dark Theme */
 /* Base Styles */
 .ssl-contactus-section {
-    background-color: #001B50;
+    background-color: #fff;
     padding: 50px;
 }
 
@@ -1238,18 +1238,18 @@ span {
 .ssl-contactus-info h6 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #fff;
+    color: #001B50;
 }
 
 .ssl-contactus-info p {
     font-size: 0.95rem;
-    color: #ccc;
+    color: #001B50;
     margin: 0;
 }
 
 .ssl-contactus-icon {
     font-size: 1.5rem;
-    color: #ffc107;
+    color: #001B50;
 }
 
 .ssl-contactus-formbox {
@@ -1260,7 +1260,7 @@ span {
 
 .ssl-contactus-form h4 {
     font-weight: 600;
-    color: #fff;
+    color: #001B50;
 }
 
 .ssl-contactus-form .form-control,
@@ -1268,7 +1268,7 @@ span {
 .ssl-contactus-form textarea {
     font-size: 0.95rem;
     border-radius: 5px;
-    background-color: #000;
+    background-color: transparent;
     color: #fff;
     border: 1px solid #555;
 }
@@ -1290,15 +1290,15 @@ span {
 }
 
 .ssl-contact-send {
-    background-color: #fff;
-    border: #fff 1px solid;
-    color: #000;
+    background-color: #001B50;
+    border: #001B50 1px solid;
+    color: #fff;
 }
 
 .ssl-contact-send:hover {
     background-color: transparent;
-    border: #fff 1px solid;
-    color: #fff;
+    border: #001B50 1px solid;
+    color: #001B50;
 }
 
 /* Medium Devices (Tablets) */
@@ -1434,6 +1434,24 @@ span {
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
+}
+.btn-classic {
+    background: transparent;
+    border: 2px solid #001B50;   /* deep blue border */
+    color: #001B50;              /* text color */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-classic:hover {
+    background: #001B50;         /* deep blue background */
+    color: #fff;                 /* white text */
+    box-shadow: 0 4px 12px rgba(0, 27, 80, 0.3);
+    transform: translateY(-2px);
 }
 
 .ssl-service-details {
